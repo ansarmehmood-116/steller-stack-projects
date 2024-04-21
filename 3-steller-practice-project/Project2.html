@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>design</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 15px;
+            min-width: 30%;
+        }
+       .nav-bar{
+        display: flex;
+        margin-top: 20px;
+       }
+       .nav-bar li a{
+        padding-right:25px;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: sans-serif;
+       }
+       .picture{
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         margin-top: 20px;
+         cursor: pointer;
+       }
+       .nav-bar li a{
+        text-decoration: none;
+        color: #333;
+       }
+       .nav-bar li a:hover{
+        color: blue;
+        transition: 0.5s;
+       }
+       .login{
+        background: whitesmoke;
+        border: none;
+        padding: 15px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+       }
+       li{
+        list-style: none;
+       }
+       .second{
+         width: 610px;
+         margin-top: 30px;
+         margin-left: 100px;
+         font-family: sans-serif;
+         line-height: 26px;
+         font-size: 20px;
+       }
+       .second h1{
+        font-size: 32px;
+        line-height: 50px;
+        font-weight: 900;
+        word-spacing: 3px;
+        margin-bottom: 6px;
+       }
+       button{
+        margin: 10px;
+        background: transparent;
+       }
+       .button1{
+        width: 230px;
+        min-height: 40px;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 10px;
+        background-color: rgb(41, 126, 222);
+        border: 1px solid rgb(85, 150, 225);
+       }
+       .button2{
+        width: 230px;
+        min-height: 40px;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 10px;
+        background-color: rgb(211, 211, 211);
+        border: 1px solid lightgrey;
+       }
+       .third{
+        width: 100%;
+        background-color: #333;
+        height: 600px;
+        color: white;
+        font-family: sans-serif;
+        justify-content: center;
+        align-items: center;
+       }
+       .third h1{
+         margin-left: 50px;
+         line-height: 45px;
+         padding: 25px;
+       }
+       .main-box{
+        display: flex;
+        justify-content: center;
+       }
+       .box{
+        width: 20%;
+        height: 390px;
+        float: left;
+        border:1px solid #fff;
+        margin: 20px;
+        line-height: 22px;
+        border-radius: 15px;
+        padding: 20px 40px;
+       }
+       .b{
+        color: white;
+        padding: 10px;
+        font-size: 22px;
+        border-radius: 10px;
+        border: none;
+        background: dodgerblue;
+        margin-top: 55px;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+       <div class="container" id="containers" onmouseover="fun()">
+           <div class="first">
+               <img class="picture" src="https://www.shutterstock.com/image-vector/letter-w-growth-logo-chart-260nw-1616912911.jpg"
+                alt="logo">
+           </div>
+           <div class="nav-bar">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a class="login" href="#">
+                    <i class="fas fa-user"> Log-in</i>
+                   </a></li>
+           </div>
+       </div>
+    </nav>   
+
+    <div class="second">
+         <h1>A powerfull Solution to Grow your Startup! fast</h1>
+         <p>Organize,Collaborte and take progress seamlessly <br>
+            with our one stop_shop startup growth tool</p>
+
+            <div class="buttons">
+                <button class="button1">Click</button>
+                <button class="button2"><i class="fa fa-laptop"></i>Book a demos</button>
+            </div>
+    </div>
+
+    <div class="third">
+        <h1>Dont Just take out Words For it,See <br> the Success Stories From <br> the Bussinesses just like Yours</h1>
+
+        <div class="main-box">
+            <div class="box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium atque deserunt expedita libero repellendus est! Ad qui aspernatur voluptas molestiae rerum ratione doloribus ipsam</p>
+                <button class="b">Subscription</button>
+            </div>
+            <div class="box">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium atque deserunt expedita libero repellendus est! Ad qui aspernatur voluptas molestiae rerum ratione doloribus ipsam</p>
+              <button class="b">Subscription</button>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium atque deserunt expedita libero repellendus est! Ad qui aspernatur voluptas molestiae rerum ratione doloribus ipsam</p>
+                <button class="b">Subscription</button>
+            </div>
+            <div class="box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium atque deserunt expedita libero repellendus est! Ad qui aspernatur voluptas molestiae rerum ratione doloribus ipsam</p>
+                <button class="b">Subscription</button>
+            </div>
+        </div>   
+    </div>   
+</body>
+</html>
+
